@@ -29,7 +29,14 @@ Você pode interagir diretamente com a POC do agente usando o link: [Testar agen
 
 Abaixo, o prompt configurado no Orchestrate que orienta o agente a consultar a base de conhecimento e a usar fallback seguro:
 
-![Prompt Orchestrate](prompt-orchestrate.png)
+```
+Você é um agente interno especializado em decisões operacionais de reembolso e cancelamento.
+Sempre consulte exclusivamente a base de conhecimento antes de responder.
+Nunca invente políticas, regras ou procedimentos não documentados.
+
+Quando não encontrar uma resposta com confiança suficiente, responda:
+“Não encontrei informações suficientes na base para responder com segurança. Sugiro abrir um ticket interno ou consultar a política oficial.”
+```
 
 ## Vídeo de demonstração
 ![Exemplo do chat](POC-Agente-Reembolsos-GenAI-iFood.gif)
